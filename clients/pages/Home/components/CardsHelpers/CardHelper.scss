@@ -1,0 +1,55 @@
+.сardHelper {
+  width: 266px;
+  height: 86px;
+  background: #191B21;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  display: flex;
+  margin-left: 20px;
+
+  @media screen and (max-width: 320px) {
+    margin-left: 0px;
+    width: 290px;
+    height: 86px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  @media screen and (max-width: 920px) {
+    margin-left: 0px;
+    width: 290px;
+    height: 86px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
+
+.pSpan {
+  color: #8B949E;
+  margin-top: 20px;
+  margin-left: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+.pHeader {
+  color: #ffffff;
+  margin-top: 9px;
+  margin-left: 15px;
+  font-size: 25px;
+  font-family: 'SfUiTextBold';
+}
+
+.cardHelperContainer {
+  display: flex;
+
+  @media screen and (max-width: 320px) {
+    flex-direction: column;
+    margin-left: 15px;
+  }
+
+  @media screen and (max-width: 920px) {
+    flex-direction: column;
+    margin-left: 15px;
+  }
+}

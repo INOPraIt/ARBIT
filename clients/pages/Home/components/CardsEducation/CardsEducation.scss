@@ -1,0 +1,88 @@
+.cardsEducationContainerS {
+  margin-left: 70px;
+  position: relative;
+
+  @media screen and (max-width: 960px){
+    margin-left: 15px;
+  }
+
+  .cardsEducationBlock {
+    display: flex;
+    background-color: #121721;
+    width: 640px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 15px;
+    align-items: center;
+
+    @media screen and (max-width: 960px){
+      width: 290px;
+      height: 95px;
+    }
+
+    .headerCardsEducation {
+      color: #FFFFFF;
+      font-size: 18px;
+      font-family: 'SfUiTextBold';
+      margin-left: 35px;
+
+      @media screen and (max-width: 960px){
+        font-size: 16px;
+        width: 187px;
+        margin-left: 18px;
+      }
+    }
+
+    .btnPlus {
+      width: 20px;
+      height: 20px;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #00000000;
+      margin-left: 40%;
+      .imgblockAvatarQuestionO5A6 {
+        margin-left: 178px;
+      }
+
+      .imgBtnPlus {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+  .cardsDescription {
+    width: 640px;
+    height: 124px;
+    background: #121721;
+    border-radius: 0 0 10px 10px;
+
+    @media screen and (max-width: 960px){
+      width: 290px;
+      height: 171px;
+    }
+
+    .cardsDescriptionT {
+      width: 536px;
+      font-size: 16px;
+      color: #C5C5C5;
+      font-family: 'Roboto', sans-serif;
+      margin-left: 35px;
+
+      @media screen and (max-width: 960px){
+        width: 247px;
+        height: 176px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.cardsEducationContainer {
+  margin-top: 60px;
+
+  @media screen and (max-width: 960px){
+    margin-top: 1px;
+  }
+}

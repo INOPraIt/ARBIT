@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.containerNavbarGen {
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+
+  @media screen and (max-width: 320px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  @media screen and (max-width: 920px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.block320px {
+  display: none;
+  background-color: #0D1017;
+  @media screen and (max-width: 320px) {
+    display: flex;
+  }
+
+  @media screen and (max-width: 920px) {
+    display: flex;
+  }
+
+  .btnNav1 {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    background: #0C1C2E;
+    margin-top: 17px;
+    margin-left: 15px;
+
+    .nav1Img {
+      width: 16px;
+      height: 12px;
+    }
+  }
+  .nav2Img {
+    width: 88px;
+    height: 21px;
+    margin-left: 74px;
+    margin-top: 25px;
+  }
+  
+}
+
+.blockNavbarGen1 {
+  display: flex;
+  background: #0D1017;
+  @media screen and (max-width: 320px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 920px) {
+    display: none;
+  }
+}
+
+
+.arbitTextLogo {
+  display: flex;
+}
+
+.imgNavGen1 {
+  margin-left: 40%;
+  margin-top: 39px;
+}
+
+.textLinkNavGen {
+  margin-left: 8%;
+  margin-top: 39px;
+  color: white;
+  width: 100%;
+
+  .textHome {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+  }
+
+  .textProject {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+  }
+
+  .textQuestion {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+  }
+
+  .textNews {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+    background-image: linear-gradient(90deg, rgba(147, 96, 255, 1), rgba(147, 96, 255, 1), rgba(79, 178, 252, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.blockNavbar2 {
+  display: flex;
+  justify-content: center;
+  background-color: #0D1017;
+  display: block;
+  @media screen and (max-width: 320px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 920px) {
+    display: none;
+  }
+
+
+  .authNavGen {
+    width: 156px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0C1C2E;
+    color: white;
+    margin-top: 25px;
+  }
+}

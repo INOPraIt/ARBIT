@@ -1,0 +1,36 @@
+.borderGlass {
+
+  .glassContainer {
+    width: 261px;
+    height: 160px;
+    background: linear-gradient(133deg, rgba(120, 56, 255, 0.19) -36.11%, rgba(255, 255, 255, 0.1) 74.13%);
+    box-shadow: 0px 0.817143px 4.90286px -0.204286px rgba(0, 0, 0, 0.2);
+    margin-top: 48px;
+    border-radius: 14.3px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(5.10714px);
+    border: 1px solid rgba(255, 255, 255, 0.719);
+
+    .headerGlassContainer {
+      margin-top: 32px;
+    }
+  
+    .proccentGlassContainer {
+      background: linear-gradient(96.72deg, #9360FF 0%, #A073FF 0.01%, #4FB2FC 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-top: 10px;
+
+    }
+  }
+}
+
+
+.glassContOne {
+  display: flex;
+}

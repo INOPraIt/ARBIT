@@ -1,0 +1,178 @@
+.cardsTarifsContainer {
+  background-color: aliceblue;
+  width: 49%;
+  height: 946px;
+  border-radius: 20px;
+  background: #0D1017;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  margin-left: 8px;
+  margin-top: 10px;
+
+  @media screen and (max-width: 1320px) {
+    width: 69%;
+    margin-left: 0%;
+  }
+
+  @media screen and (max-width: 320px) {
+    width: 290px;
+    height: 671px;
+    margin-left: 15px;
+  }
+
+  @media screen and (max-width: 920px) {
+    width: 290px;
+    height: 671px;
+    margin-left: 15px;
+  }
+
+  .imgCardTarif {
+    width: 93%;
+    height: 62%;
+    margin-left: 20px;
+    margin-top: 16px;
+
+    @media screen and (max-width: 320px) {
+      width: 250px;
+      height: 250px;
+      margin-left: 20px;
+      margin-top: 16px;
+      border-radius: 10px;
+    }
+
+    @media screen and (max-width: 920px) {
+      width: 250px;
+      height: 250px;
+      margin-left: 20px;
+      margin-top: 16px;
+      border-radius: 10px;
+    }
+  }
+
+  .textHeader {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'SfUiTextBold';
+    margin-left: 20px;
+    margin-top: 20px;
+
+    @media screen and (max-width: 320px) {
+      width: 99px;
+      height: 24px;
+      font-size: 20px;
+    }
+
+    @media screen and (max-width: 920px) {
+      width: 99px;
+      height: 24px;
+      font-size: 20px;
+    }
+  }
+
+  .textDiscription {
+    color: #8B949E;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    width: 534px;
+    margin-top: 14px;
+    margin-left: 20px;
+
+    @media screen and (max-width: 320px) {
+      width: 255px;
+      height: 105px;
+      font-size: 14px;
+    }
+
+    @media screen and (max-width: 920px) {
+      width: 255px;
+      height: 105px;
+      font-size: 14px;
+    }
+  }
+
+  .blockAdvantageContainer {
+    display: flex;
+
+    .podBlockAdvantage1 {
+      display: flex;
+      margin-left: 20px;
+      margin-top: 26.5px;
+
+    }
+
+    .podBlockAdvantage2 {
+      display: flex;
+      margin-left: 20px;
+      margin-top: 13px;
+
+    }
+
+    .podBlockAdvantage3 {
+      display: flex;
+      margin-left: 116px;
+      margin-top: 26.5px;
+    }
+
+    .podBlockAdvantage4 {
+      display: flex;
+      margin-left: 116px;
+      margin-top: 13px;
+    }
+
+    .imgAdvantage {
+      border: 1px solid red;
+      width: 14px;
+      height: 14px;
+    }
+
+    .textAdvantage {
+      margin-left: 16px;
+      color: #FFFFFF;
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+
+  .btnSeeContent {
+    width: 92%;
+    height: 50px;
+    background: #0C1C2E;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    border: none;
+    margin-left: 25px;
+    margin-top: 25.5px;
+
+    @media screen and (max-width: 320px) {
+      width: 250px;
+      height: 50px;
+      margin-left: 20px;
+    }
+
+    @media screen and (max-width: 920px) {
+      width: 250px;
+      height: 50px;
+      margin-left: 20px;
+    }
+  }
+}
+
+.contCardsTarifs {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 1320px) {
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 320px) {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 920px) {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
