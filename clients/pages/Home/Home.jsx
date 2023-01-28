@@ -227,8 +227,10 @@ export default function Home() {
         <div className='podBlock1'>
           <div style={{ display: 'flex', marginTop: 90 }}>
             <div class="vl"></div>
-            <h1 className='goalsT'>Реферальная</h1>
-            <h1 className='kourT'>программа</h1>
+            <div>
+              <h1 className='goalsT'>Реферальная</h1>
+              <h1 className='kourT'>программа</h1>
+            </div>
           </div>
           <p className='referaaProgrammT'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.

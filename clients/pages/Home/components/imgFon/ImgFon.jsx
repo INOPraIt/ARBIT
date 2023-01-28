@@ -1,12 +1,9 @@
 import React from 'react';
 import './ImgFon.scss';
 
-export default function ImgFon({ link, margL, margT }) {
+export default function ImgFon({ link }) {
   return (
-    <div 
-      className='avatarI8Cont'
-      style={{ marginLeft: margL, marginTop: margT }}
-      >
+    <div className='avatarI8Cont'>
       <div className='avatarBlock'>
         <img
           src={link}
