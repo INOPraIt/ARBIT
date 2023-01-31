@@ -1,0 +1,29 @@
+.containerPagination {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.pageLink {
+  text-decoration: none;
+  background-color: #0490fb00;
+  width: 30px;
+  height: 29px;
+  color: aliceblue;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 25px;
+}
+
+.prevLink {
+  text-decoration: none;
+  background-color: #0490fb00;
+  width: 30px;
+  height: 29px;
+}
+
+.imgOne {
+  transform: rotate(180deg);
+}

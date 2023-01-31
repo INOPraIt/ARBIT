@@ -1,0 +1,278 @@
+.containerFinance {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 960px;
+  background: #0D1017;
+}
+
+.item1Finance {
+  background: #0D1017;
+}
+
+.item2Finance {
+  background: #010409;
+  overflow: auto;
+
+  .textFinanceAndLine {
+    display: flex;
+
+    .financeLine {
+      height: 15px;
+      width: 6px;
+      background: #0491FB;
+      border-radius: 2px;
+      border: none;
+      margin-top: 40px;
+      margin-left: 30px;
+    }
+
+    .financeText {
+      color: #FFFFFF;
+      font-size: 25px;
+      font-family: 'SfUiTextBold';
+      margin-top: 32px;
+      margin-left: 15px;
+    }
+  }
+
+  .transactionCardsContainer {
+    display: flex;
+
+    .replenishTheBalanceCard {
+      background-color: rgba(13, 16, 23, 1);
+      width: 552px;
+      height: 335px;
+      margin-left: 30px;
+      margin-top: 30px;
+      border-radius: 10px;
+
+      .replenishTheBalanceText {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+        color: white;
+        font-family: 'SfUiTextBold';
+      }
+
+      .inp1B {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .inpPrice1 {
+          background-color: #121721;
+          border: none;
+          border-radius: 5px;
+          width: 92%;
+          height: 70px;
+          margin-top: 20px;
+          padding-left: 20px;
+          font-size: 20px;
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          outline: none;
+        }
+      }
+
+      .paymentMethodText {
+        color: #151D26;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 14px;
+        margin-top: 20px;
+      }
+    }
+
+    .withdrawalOfFundsCards {
+      border: 1px solid rgba(255, 255, 255, 0.03);
+      background-color: rgba(13, 16, 23, 1);
+      width: 552px;
+      height: 335px;
+      margin-left: 20px;
+      margin-top: 30px;
+      border-radius: 10px;
+
+      .replenishTheBalanceText {
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+        color: white;
+        font-family: 'SfUiTextBold';
+      }
+
+      .inp1B {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .inpPrice1 {
+          background-color: #121721;
+          border: none;
+          border-radius: 5px;
+          width: 92%;
+          height: 70px;
+          margin-top: 20px;
+          padding-left: 20px;
+          font-size: 20px;
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          outline: none;
+        }
+      }
+
+      .paymentMethodText {
+        color: #151D26;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 14px;
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .inp2B {
+    align-items: center;
+    justify-content: center;
+
+    .customSelect {
+      &__control {
+        background-color: #0C1C2E !important;
+        border: none !important;
+        border-radius: 5px !important;
+        width: 95.5% !important;
+        height: 70px !important;
+        margin-top: 10px !important;
+        margin-left: 13px !important;
+        padding-left: 10px !important;
+        font-size: 20px !important;
+        font-family: 'Roboto', sans-serif !important;
+        color: white !important;
+        outline: none !important;
+      }
+
+      &__menu {
+        background-color: #0C1C2E !important;
+        border: none !important;
+        border-radius: 5px !important;
+        width: 95.5% !important;
+        margin-top: 20px !important;
+        margin-left: 13px !important;
+        padding-left: 0px !important;
+        font-size: 20px !important;
+        font-family: 'Roboto', sans-serif !important;
+        color: white !important;
+        outline: none !important;
+      }
+    }
+  }
+
+  .btnBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    .btnfinanceGood {
+      width: 92%;
+      height: 48px;
+      background: #121721;
+      color: white;
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+      border-radius: 10px;
+      border: none;
+
+    }
+  }
+
+
+  .historyTranzactionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .historyCardTranzaction {
+      margin-left: 12px;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      width: 95.7%;
+      height: 536px;
+      background: #0D1017;
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.03);
+
+      .historyTranzactionText {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: 'SfUiTextBold';
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+
+      .cardsSubTypeDateAndStatusTranzaction {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        .cardSubTypeDateAndStatusTranzactionHeader {
+          display: flex;
+          background-color: #0C1C2E;
+          height: 65px;
+          width: 95.5%;
+          border-radius: 20px 20px 0 0;
+
+          .sumText {
+            color: #FFFFFF;
+            margin-top: 20px;
+            margin-left: 40px;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+          }
+
+          .typeText {
+            color: #FFFFFF;
+            margin-top: 20px;
+            margin-left: 228px;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            width: 220px;
+          }
+
+          .dateText {
+            color: #FFFFFF;
+            margin-top: 20px;
+            margin-left: 88px;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+          }
+          
+          .statusText {
+            color: #FFFFFF;
+            margin-top: 20px;
+            margin-left: 258px;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+          }
+
+        }
+      }
+      .cardsContainerFrom {
+        display: flex;
+        justify-content: center;
+
+        .containerCard {
+          height: 340px;
+          width: 95.5%;
+          background: rgba(217, 217, 217, 0.03);
+          border-radius: 0 0 20px 20px1;
+        }
+      }
+      
+    }
+  }
+
+}

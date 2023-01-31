@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import MyOffice from './pages/Home/Home';
-import Finance from './pages/Home/Home';
-import Rates from './pages/Home/Home';
+import MyOffice from './pages/MyOffice/MyOffice';
+import Finance from './pages/Finance/Finance';
+import Rates from './pages/Rates/Rates';
 import Layout from './components/Layout';
 
 export default function App() {

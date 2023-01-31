@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <div className='aboutProject'>
             <div className='textsAboutProject'>
-              <div class="vl"></div>
+              <div className="vl"></div>
               <h1 className='littleT'>Немного</h1>
               <h1 className='projectsT'>о проекте</h1>
             </div>
@@ -112,7 +112,7 @@ export default function Home() {
         </div>
         <div className='AboutTextOnSecret'>
           <div className='textsAboutProjectOS'>
-            <div class="vlOS"></div>
+            <div className="vlOS"></div>
             <h1 className='littleTOS'>Немного</h1>
             <h1 className='projectsTOS'> о проекте</h1>
           </div>
@@ -168,7 +168,7 @@ export default function Home() {
 
       <div className='itemBlock5'>
         <div className='blockQuestion1'>
-          <div class="vl"></div>
+          <div className="vl"></div>
           <h1 className='veryQuestionT'>Часто задаваемые</h1>
           <h1 className='questionT'>вопросы</h1>
         </div>
@@ -192,7 +192,7 @@ export default function Home() {
         <div className='blockQuestion1O5A6'>
           <div className='vlAndText'>
             <div>
-              <div class="vlO5A6"></div>
+              <div className="vlO5A6"></div>
             </div>
             <div>
               <h1 className='veryQuestionTO5A6'>Часто задаваемые</h1>
@@ -210,7 +210,7 @@ export default function Home() {
       </div>
       <div className='itemBlock7'>
         <div className='blocKourGoals'>
-          <div class="vl"></div>
+          <div className="vl"></div>
           <h1 className='kourT'>Наши</h1>
           <h1 className='goalsT'>цели</h1>
         </div>
@@ -226,7 +226,7 @@ export default function Home() {
         <ImgFonContainer />
         <div className='podBlock1'>
           <div style={{ display: 'flex', marginTop: 90 }}>
-            <div class="vl"></div>
+            <div className="vl"></div>
             <div>
               <h1 className='goalsT'>Реферальная</h1>
               <h1 className='kourT'>программа</h1>

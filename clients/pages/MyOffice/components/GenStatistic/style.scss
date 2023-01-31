@@ -1,0 +1,39 @@
+.containerGSC {
+  width: 99%;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.cardStyleOne {
+  background: #0D1017;
+  width: 31%;
+  margin-left: 20px;
+  height: 86px;
+  border-radius: 20px;
+  display: flex;
+
+  .imgCSO {
+    width: 46px;
+    height: 46px;
+    margin-left: 26px;
+    margin-top: 20px;
+  }
+
+  .containerCSO {
+    margin-left: 15px;
+    margin-top: 20px;
+
+    .textCSO {
+      color: #8B949E;
+      font-size: 13px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .textCST {
+      color: #FFFFFF;
+      font-size: 25px;
+      font-family: 'SfUiTextBold';
+    }
+  }
+}

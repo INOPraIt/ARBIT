@@ -1,0 +1,177 @@
+// font-family: 'SfUiTextBold';
+// font-family: 'Roboto', sans-serif;
+
+.contSidebarOne {
+  display: flex;
+  flex-direction: column;
+}
+
+.oneImg {
+  width: 88px;
+  height: 21px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.contGenPage {
+  display: flex;
+  margin-top: 43px;
+  margin-left: 23px;
+
+  .imgGen {
+    width: 18px;
+    height: 18px;
+  }
+
+  .genLink {
+    text-decoration: none;
+    margin-left: 18px;
+    color: #8B949E;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.blockSettingsAccount {
+
+  .textSettingsAccountAndLine {
+    display: flex;
+    margin-top: 33px;
+    margin-left: 20px;
+
+    .textSettingsAccount {
+      font-size: 14px;
+      color: #323846;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .lineSettingsAccount {
+      width: 51px;
+      height: 1px;
+      border: none;
+      background: #323846;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 8px;
+      margin-left: 6px;
+    }
+  }
+
+  .myOfficeTextC {
+    display: flex;
+    margin-top: 23px;
+
+  
+  }
+
+  .img11 {
+    width: 18px;
+    height: 18px;
+    margin-left: 0px;
+  }
+
+  .myOfficeText {
+    color: #8B949E;
+    font-family: 'Roboto', sans-serif;
+    height: 18px;
+    margin-left: 18px;
+  }
+
+  .myTarifTextC {
+    display: flex;
+    margin-top: 23px;
+    text-decoration: none;
+    text-decoration: "none";
+    margin-left: 23px;
+    margin-right: 10px;
+    background-color: "#0491FB";
+    height: 47;
+    display: flex;
+    align-items: center;
+    width: 226;
+    border-radius: 10;
+    padding-left: 0;
+
+
+    .img12 {
+      width: 18px;
+      height: 18px;
+    }
+
+    .myTarifText {
+      color: #8B949E;
+      font-family: 'Roboto', sans-serif;
+      height: 18px;
+      margin-left: 18px;
+    }
+  }
+
+  .myFinanceTextC {
+    display: flex;
+    margin-top: 23px;
+    text-decoration: none;
+    text-decoration: "none";
+    margin-left: 23px;
+    margin-right: 10px;
+    background-color: "#0491FB";
+    height: 47;
+    display: flex;
+    align-items: center;
+    width: 226;
+    border-radius: 10;
+    padding-left: 0;
+
+    .img13 {
+      width: 18px;
+      height: 18px;
+    }
+
+    .myFinanceText {
+      color: #8B949E;
+      font-family: 'Roboto', sans-serif;
+      height: 18px;
+      margin-left: 18px;
+    }
+  }
+
+  .textOtherAccountAndLine {
+    display: flex;
+    margin-top: 33px;
+    margin-left: 20px;
+
+    .textOtherAccount {
+      font-size: 14px;
+      color: #323846;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .lineOtherAccount {
+      width: 159px;
+      height: 1px;
+      border: none;
+      background: #323846;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 8px;
+      margin-left: 6px;
+    }
+  }
+}
+
+.btnLogOut {
+  display: flex;
+  width: 216px;
+  height: 48px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  align-items: center;
+  background: #0C1C2E;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  margin-top: 402
+  px;
+}
+
+.activer {
+  background-color: aqua;
+}

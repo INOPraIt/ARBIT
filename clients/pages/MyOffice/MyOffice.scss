@@ -1,0 +1,389 @@
+.myOfficeContainer {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 900px;
+}
+
+.myOfficeI1 {
+  background-color: #0D1017;
+}
+
+.myOfficeI2 {
+  background-color: #010409;
+  overflow: auto;
+
+
+  .containerLineAndTextInfoUser {
+    display: flex;
+
+
+    .lineInformationUser {
+      border-left: 8px solid rgb(0, 145, 255);
+      height: 21px;
+      border-radius: 2px;
+      margin-top: 40px;
+      margin-left: 30px;
+    }
+
+    .textInformationUser {
+      color: white;
+      margin-left: 15px;
+      font-size: 25px;
+      font-family: 'SfUiTextBold';
+      margin-top: 40px;
+    }
+  }
+
+  .cardUserAvaCont {
+    display: flex;
+    width: 95%;
+    height: 328px;
+    background-color: #0D1017;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    margin-top: 25px;
+
+    .blockCardUserAva {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 35%;
+      height: 328px;
+
+      .imgAvatar1 {
+        margin-top: 20px;
+        width: 50%;
+
+        @media screen and (max-width: 1920px) {
+          width: 180px;
+        }
+
+        @media screen and (max-width: 1320px) {
+          width: 50%;
+        }
+      }
+
+      .textNameUser {
+        color: white;
+        font-size: 20px;
+        font-family: 'SfUiTextBold';
+        margin-top: 15px;
+      }
+
+      .btnRedactor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 48px;
+        background: #0491FB;
+        border-radius: 10px;
+        border: none;
+        margin-top: 20px;
+
+        .redactorImg {
+          width: 14px;
+          height: 17px;
+        }
+
+        .redactorImgText {
+          color: #FFFFFF;
+          font-size: 100%;
+          font-family: 'Roboto', sans-serif;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .blockLineCardUserBalance {
+      background: #21262D;
+      width: 1px;
+      height: 288px;
+      border-radius: 10px;
+    }
+
+    .blockCardUserBalance {
+      width: 65%;
+      height: 328px;
+
+      .balanceCard1 {
+        width: 65%;
+        height: 118px;
+        background: #121721;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 79px;
+
+        .settingAccountAndSettingBalance {
+          display: flex;
+
+          .settingBalanceT {
+            color: #8B949E;
+            font-size: 13px;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 24px;
+            margin-top: 18px;
+          }
+
+          .settingBalanceL {
+            color: #0491FB;
+            width: 170px;
+            font-size: 13px;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 200px;
+            margin-top: 18px;
+          }
+        }
+
+        .balanceUsersText {
+          font-size: 40px;
+          color: white;
+          font-family: 'SfUiTextBold';
+          margin-left: 24px;
+        }
+
+        .approximatelyText {
+          color: #323846;
+          font-size: 14px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 900;
+          margin-left: 24px;
+          margin-top: 6px;
+        }
+
+      }
+
+      .balanceCard2 {
+        width: 65%;
+        height: 70px;
+        background: #121721;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-left: 79px;
+
+        .textsEmail {
+          margin-top: 0px;
+
+          .youEmailText {
+            color: #8B949E;
+            margin-top: 20px;
+            margin-left: 24px;
+            font-family: 'Roboto', sans-serif;
+          }
+
+          .youEmail {
+            font-size: 16px;
+            color: #FFFFFF;
+            font-family: 'SfUiTextBold';
+            margin-top: 15px;
+            margin-left: 24px;
+          }
+        }
+      }
+
+      .balanceCard3 {
+        width: 65%;
+        height: 70px;
+        background: #121721;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-left: 79px;
+
+        .textsReferalLink {
+
+          .youReferalLinkText {
+            color: #8B949E;
+            margin-top: 20px;
+            margin-left: 24px;
+            font-family: 'Roboto', sans-serif;
+          }
+
+          .youReferalLink {
+            font-size: 16px;
+            color: #FFFFFF;
+            font-family: 'SfUiTextBold';
+            margin-top: 15px;
+            margin-left: 24px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .staticBlockContainer {
+    
+  }
+  
+  .myReferalSetka {
+    width: 95%;
+    height: 281px;
+    background-color: #0D1017;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+
+    .cardReferalSetka {
+      
+      .myReferalSetkaText {
+        color: white;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+        font-family: 'SfUiTextBold';
+      }
+      .cardReferalOne {
+        width: 100%;
+        display: flex;
+
+        .podCardOne {
+          width: 27%;
+          margin-top: 20px;
+          margin-left: 20px;
+          background: #121721;
+          height: 115px;
+          border-radius: 10px;
+
+          .referalText {
+            color: #8B949E;
+            font-size: 13px;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            margin-top: 15px;
+          }
+
+          .referalNumber {
+            color: #FFFFFF;
+            font-size: 60px;
+            font-family: 'SfUiTextBold';
+            text-align: center;
+          }
+        }
+
+        .podCardTwo {
+          width: 68%;
+          height: 115px;
+          background: #121721;
+          border-radius: 10px;
+          margin-top: 20px;
+          margin-left: 24px;
+
+          .pricedReferalsText{
+            color: #8B949E;
+            font-size: 13px;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 60px;
+            margin-top: 15px;
+          }
+          .pricedReferalsNumber {
+            color: #FFFFFF;
+            font-size: 40px;
+            margin-left: 60px;
+            font-family: 'SfUiTextBold';
+          }
+          .pricedReferalsApproximately {
+            color: #323846;
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 60px;
+            font-weight: 900;
+          }
+        }
+      }
+
+      .cardRerferalLink {
+        width: 47.7%;
+        height: 70px;
+        background: #121721;
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-top: 15px;
+
+        .youReferalLinkText {
+          color: #8B949E;
+          font-size: 13px;
+          font-family: 'SfUiTextBold';
+          font-family: 'Roboto', sans-serif;
+          margin-left: 20px;
+        }
+
+        .cardReferalLink {
+          display: flex;
+
+          .textLink {
+            color: #FFFFFF;
+            font-family: 'SfUiTextBold';
+            font-size: 16px;
+            margin-left: 20px;
+          }
+
+          .imgCopy {
+            width: 17px;
+            height: 17px;
+            margin-left: 147px;
+            margin-top: 12px;
+          }
+        }
+      }
+
+      .cardsGeneralReferalLink {
+        display: flex;
+      }
+    }
+  }
+
+  .myReferals {
+    width: 95%;
+    height: 695px;
+    background-color: #0D1017;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    margin-top: 30px;
+    .myReferalsText {
+      color: white;
+      margin-top: 20px;
+      margin-left: 20px;
+      font-size: 20px;
+      font-family: 'SfUiTextBold';
+    }
+
+    .twoCards {
+      display: flex;
+
+      .blockSearchReferals {
+        width: 60%;
+        height: 70px;
+        background: #121721;
+        margin-left: 20px;
+        border-radius: 20px;
+        margin-top: 20px;
+  
+        .searchToReferals {
+          color: #8B949E;
+          font-family: 'Roboto', sans-serif;
+          font-size: 13px;
+          margin-left: 20px;
+          margin-top: 15px;
+        }
+  
+        .nameAndEmailUser {
+          color: #323846;
+          margin-left: 20px;
+          font-family: 'SfUiTextBold';
+          font-size: 16px;
+        }
+      }
+
+      .blockFilterToLevels {
+        width: 284px;
+        height: 70px;
+        
+      }
+    }
+  }
+}

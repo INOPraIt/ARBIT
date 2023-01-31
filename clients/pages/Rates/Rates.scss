@@ -1,0 +1,39 @@
+.containerRates {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 900px;
+}
+
+.itemRates1 {
+  background: #0D1017;
+}
+
+
+.itemRates2 {
+  background: #010409;
+  overflow: auto;
+  .textRatesAndLine {
+    display: flex;
+
+    .ratesLine {
+      height: 15px;
+      width: 6px;
+      background: #0491FB;
+      border-radius: 2px;
+      border: none;
+      margin-top: 40px;
+      margin-left: 30px;
+    }
+
+    .ratesText {
+      color: #FFFFFF;
+      font-size: 25px;
+      font-family: 'SfUiTextBold';
+      margin-top: 32px;
+      margin-left: 15px;
+    }
+  }
+
+
+}
+

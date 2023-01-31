@@ -1,0 +1,43 @@
+.cardsContainer {
+  background: rgba(255, 255, 255, 0.028);
+  height: 68px;
+  color: white;
+  display: flex;
+  
+  .textOne {
+    margin-top: 25px;
+    width: 93px;
+    margin-left: 41px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .textTwo {
+    margin-top: 25px;
+    width: 79px;
+    margin-left: 189px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .textThree {
+    margin-top: 25px;
+    width: 96px;
+    margin-left: 229px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .textFour {
+    margin-top: 25px;
+    width: 118px;
+    margin-left: 200px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
