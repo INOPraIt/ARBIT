@@ -11,11 +11,78 @@ import CardsEducationContainer from './components/CardsEducation/CardsEducationC
 import ImgFon from './components/imgFon/ImgFon';
 import ImgFonContainer from './components/imgFon/ImgFonContainer';
 import GlassContainer from './components/Glass/GlassContainer';
+import RegisterM from '../ModalWindows/RegisterM/StepOne/RegisterM';
+import nav1 from '../../components/img/nav1.png';
+import nav2 from '../../components/img/nav2.png';
+import logonavgen from '../../components/img/1.png';
+import StepTwo from '../ModalWindows/RegisterM/StepTwo/StepTwo';
+import StepThree from '../ModalWindows/RegisterM/StepThree/StepThree';
 
 export default function Home() {
+
+  const [modalRegActive, setModalRegActive] = React.useState(false);
+  const [modalActiveStepTwo, setModalActiveStepTwo] = React.useState(false);
+  const [modalActiveStepThree, setModalActiveStepThree] = React.useState(false);
+
   return (
     <div className='containerHome'>
+      <div className='navItem'>
+        <div className='containerNavbarGen'>
+          <div className='block320px'>
+            <button className='btnNav1'>
+              <img
+                src={nav1}
+                className='nav1Img'
+              />
+            </button>
+            <div>
+              <img
+                className='nav2Img'
+                src={nav2}
+              />
+            </div>
+          </div>
+          <div className='blockNavbarGen1'>
+            <div>
+              <img
+                src={logonavgen}
+                className="imgNavGen1"
+              />
+            </div>
+            <div className='textLinkNavGen'>
+              <a className='textHome' href={'#gen'}>Главная</a>
+              <a className='textProject' href={'#aboutproject'}>О проекте</a>
+              <a className='textQuestion' href={'#question'}>Частые вопросы</a>
+              <a className='textNews' href={'#newschanal'}>Новостные каналы</a>
+            </div>
+          </div>
+          <div className='blockNavbar2'>
+            <button onClick={() => setModalRegActive(true)} className='authNavGen'>
+              Авторизация
+            </button>
+          </div>
+        </div>
+      </div>
+      <RegisterM
+        active={modalRegActive}
+        setActive={setModalRegActive}
+        activeStepTwo={modalActiveStepTwo}
+        setActiveStepTwo={setModalActiveStepTwo}
+      />
+      <StepTwo
+        active={modalRegActive}
+        setActive={setModalRegActive}
+        activeStepTwo={modalActiveStepTwo}
+        setActiveStepTwo={setModalActiveStepTwo}
+        activeStepThree={modalActiveStepThree}
+        setActiveStepThre={setModalActiveStepThree}
+      />
+      <StepThree
+        activeStepThree={modalActiveStepThree}
+        setActiveStepThre={setModalActiveStepThree}
+      />
       <div className='itemBlock1'>
+        <a name="gen"></a>
         <div className='blockFI1'>
           <div>
             <h1 className='activationLink'>
@@ -56,6 +123,7 @@ export default function Home() {
         </div>
       </div>
       <div className='itemBlock4'>
+        <a name="aboutproject"></a>
         <div className='AboutTextNoSecret'>
           <div className='blockAvatarI4'>
             <img
@@ -64,6 +132,7 @@ export default function Home() {
             />
           </div>
           <div className='aboutProject'>
+
             <div className='textsAboutProject'>
               <div className="vl"></div>
               <h1 className='littleT'>Немного</h1>
@@ -163,10 +232,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-
-
       <div className='itemBlock5'>
+        <a name="question"></a>
         <div className='blockQuestion1'>
           <div className="vl"></div>
           <h1 className='veryQuestionT'>Часто задаваемые</h1>
@@ -189,6 +256,7 @@ export default function Home() {
         </div>
       </div>
       <div className='itemSecret5And6'>
+        <a name="getStarted"></a>
         <div className='blockQuestion1O5A6'>
           <div className='vlAndText'>
             <div>
@@ -223,6 +291,7 @@ export default function Home() {
       </div>
 
       <div className='itemBlock8'>
+        <a name="getStarted"></a>
         <ImgFonContainer />
         <div className='podBlock1'>
           <div style={{ display: 'flex', marginTop: 90 }}>

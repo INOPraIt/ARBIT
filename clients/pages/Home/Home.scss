@@ -13,27 +13,170 @@
 .containerHome {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 800px 2154px 825px 725px 947px 566px 374px;
+  grid-template-rows: 74px 800px 2154px 825px 725px 947px 566px 374px;
   background: #010409;
 
   @media screen and (max-width: 320px){
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 782px 2154px 689px 1164px 345px 1166px 374px;
+    grid-template-rows: 80px 782px 2154px 689px 1164px 345px 1166px 374px;
   }
 
   @media screen and (max-width: 920px){
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 782px 2154px 689px 1164px 345px 1166px 374px;
+    grid-template-rows: 80px 782px 2154px 689px 1164px 345px 1166px 374px;
+  }
+}
+
+.navItem {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  .containerNavbarGen {
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+  
+    @media screen and (max-width: 320px) {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    @media screen and (max-width: 920px) {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .block320px {
+    display: none;
+    background-color: #0D1017;
+    @media screen and (max-width: 320px) {
+      display: flex;
+    }
+  
+    @media screen and (max-width: 920px) {
+      display: flex;
+    }
+  
+    .btnNav1 {
+      display: block;
+      width: 36px;
+      height: 36px;
+      border: none;
+      border-radius: 5px;
+      background: #0C1C2E;
+      margin-top: 17px;
+      margin-left: 15px;
+  
+      .nav1Img {
+        width: 16px;
+        height: 12px;
+      }
+    }
+    .nav2Img {
+      width: 88px;
+      height: 21px;
+      margin-left: 74px;
+      margin-top: 25px;
+    }
+    
+  }
+  
+  .blockNavbarGen1 {
+    display: flex;
+    background: #0D1017;
+    @media screen and (max-width: 320px) {
+      display: none;
+    }
+  
+    @media screen and (max-width: 920px) {
+      display: none;
+    }
+  }
+  
+  
+  .arbitTextLogo {
+    display: flex;
+  }
+  
+  .imgNavGen1 {
+    margin-left: 40%;
+    margin-top: 39px;
+  }
+  
+  .textLinkNavGen {
+    margin-left: 8%;
+    margin-top: 39px;
+    color: white;
+    width: 100%;
+  
+    .textHome {
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+      margin-left: 5%;
+    }
+  
+    .textProject {
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+      margin-left: 5%;
+    }
+  
+    .textQuestion {
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+      margin-left: 5%;
+    }
+  
+    .textNews {
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+      margin-left: 5%;
+      background-image: linear-gradient(90deg, rgba(147, 96, 255, 1), rgba(147, 96, 255, 1), rgba(79, 178, 252, 1));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  
+  .blockNavbar2 {
+    display: flex;
+    justify-content: center;
+    background-color: #0D1017;
+    display: block;
+    @media screen and (max-width: 320px) {
+      display: none;
+    }
+  
+    @media screen and (max-width: 920px) {
+      display: none;
+    }
+  
+  
+    .authNavGen {
+      width: 156px;
+      height: 48px;
+      border-radius: 10px;
+      border: none;
+      background-color: #0C1C2E;
+      color: white;
+      margin-top: 25px;
+    }
   }
 }
 
 .itemBlock1 {
   grid-column-start: 1;
   grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
   background: #0D1017;
   border-top: none;
   border-bottom-left-radius: 250vw 10vw;
@@ -71,7 +214,6 @@
       top: 68px;
     }
     @media screen and (max-width: 920px){
-      position: absolute;
       width: 356px;
       height: 262px;
       left: 140px;
@@ -156,8 +298,7 @@
     }
   }
 
-  .blockCardHelper {
-    position: absolute;
+  .blockCardHelper { 
     width: 80%;
     margin-top: 155px;
     left:75;
@@ -181,8 +322,8 @@
 .itemBlock2 {
   grid-column-start: 2;
   grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
   background: #0D1017;
 }
 
@@ -345,8 +486,8 @@
 .itemBlock4 {
   grid-column-start: 1;
   grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
   background: #0D1017;
   color: #FFFFFF;
   display: flex;
@@ -354,8 +495,8 @@
   @media screen and (max-width: 960px){
     grid-column-start: 1;
     grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
     flex-direction: column;
   }
 
@@ -574,8 +715,8 @@
 .itemBlock5 {
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
 
   @media screen and (max-width: 960px){
     display: none;
@@ -617,8 +758,8 @@
 .itemBlock6 {
   grid-column-start: 2;
   grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
 
   @media screen and (max-width: 960px){
     display: none;
@@ -647,8 +788,8 @@
 .itemSecret5And6 {
   grid-column-start: 1;
   grid-column-end: 1;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
   display: none;
 
   @media screen and (max-width: 960px){
@@ -707,8 +848,8 @@
 .itemBlock7 {
   grid-column-start: 1;
   grid-column-end: 4;
-  grid-row-start: 5;
-  grid-row-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 7;
 
   .blocKourGoals {
     display: flex;
@@ -782,8 +923,8 @@
 .itemBlock8 {
   grid-column-start: 1;
   grid-column-end: 4;
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 8;
   position: relative;
 
   .avatarBlockI8 {
@@ -861,8 +1002,8 @@
 .itemBlock9 {
   grid-column-start: 1;
   grid-column-end: 4;
-  grid-row-start: 7;
-  grid-row-end: 8;
+  grid-row-start: 8;
+  grid-row-end: 9;
   margin-top: 48px;
   background: #0D1017;
   display: flex;

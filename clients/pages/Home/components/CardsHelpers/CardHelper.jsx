@@ -8,7 +8,7 @@ export default function CardHelper({ link, header, span }) {
       <div className='сardHelper'>
         <img
           src={link}
-          style={{ width: 46, height: 46, marginTop: 20, marginLeft: 20 }}
+          style={{ width: 46, height: 46, marginTop: 20, marginLeft: 20, borderRadius: 40 }}
         />
         <div>
           <p className='pSpan'>{span}</p>

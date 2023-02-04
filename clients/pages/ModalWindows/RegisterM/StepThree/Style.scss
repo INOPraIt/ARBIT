@@ -1,0 +1,87 @@
+.modalThree {
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+  background: #0D1017;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  height: 495px;
+  width: 58%;
+  position: fixed;
+  grid-template-columns: 6fr 1fr;
+  margin-top: 203px;
+  margin-left: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 495px;
+}
+
+.modalThree.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+.lineAndRegText {
+  display: flex;
+
+  .lineRegisterAccount {
+    height: 8px;
+    width: 21px;
+    transform: rotate(90deg);
+    background: #00FF72;
+    border: none;
+    margin-top: 51px;
+    margin-left: 30px;
+    border-radius: 3px;
+  }
+
+  .registerAccount {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: 'SfUiTextBold';
+    margin-top: 41px;
+    margin-left: 15px;
+  }
+}
+
+
+.textRegistrationStep {
+  width: 442px;
+  height: 100px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+
+.btnTextLoginOne {
+  width: 234px;
+  height: 48px;
+  background: #0491FB;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 28px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.itemRegisterM2 {
+  background-color: #ffffff00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .stepThreeReg {
+    width: 113%;
+    margin-right: 45;
+    position: absolute;
+    border-radius: 20px;
+  }
+}
+

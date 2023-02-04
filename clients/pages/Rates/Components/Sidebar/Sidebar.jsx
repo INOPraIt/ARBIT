@@ -12,7 +12,7 @@ import img13 from '../../../../components/img/11.png';
 
 export default function Sidebar() {
 
-  let activeStyle = {
+  let isActive = {
     textDecoration: "none",
     marginLeft: 10,
     marginRight: 10,
@@ -47,13 +47,11 @@ export default function Sidebar() {
           <p className='textSettingsAccount'>Управление аккаунтом</p>
           <hr className='lineSettingsAccount' />
         </div>
-
+        {/*  */}
         <NavLink 
           to='/myoffice' 
-          style={({ isActive }) => 
-          isActive ? activeStyle : undefined
-        }
-          className='myTarifTextC'>
+          className='myTarifTextC'
+          >
           <img src={img11} className='img11' />
           <p className='myOfficeText'>Мой кабинет</p>
         </NavLink>

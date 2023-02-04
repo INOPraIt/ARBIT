@@ -59,7 +59,7 @@ export default function Pagination({ pages = 10, setCurrentPage }) {
 
   return (
     <div className="containerPagination">
-      <NavLink
+      <a
         className='prevLink'
         onClick={() => setCurrentButton(prev => prev <= 1 ? prev : prev - 1)}
       >
@@ -68,18 +68,18 @@ export default function Pagination({ pages = 10, setCurrentPage }) {
           style={{width: 30, height: 29, borderRadius: 6, marginTop: 20}}
           className='imgOne'
         />
-      </NavLink>
+      </a>
 
       {arrOfCurrButtons.map(((item, index) => {
-        return <NavLink
+        return <a
           key={index}
           className={'pageLink'}
           onClick={() => setCurrentButton(item)}
         >
           {item}
-        </NavLink>
+        </a>
       }))}
-      <NavLink
+      <a
         className={'nextLink'}
         onClick={() => setCurrentButton(prev => prev >= numberOfPages.length ? prev : prev + 1)}
       >
@@ -87,7 +87,7 @@ export default function Pagination({ pages = 10, setCurrentPage }) {
           src='https://sun9-79.userapi.com/impg/nktbyqwdTfed8YmHT9qqea6zO_oeCiM19_6tDw/F8foXA0ivqM.jpg?size=60x58&quality=96&sign=9b217cc1e4e43e5ea559fa6f37b39964&type=album'
           style={{width: 30, height: 29, borderRadius: 6, marginTop: 20}}
         />
-      </NavLink>
+      </a>
     </div>
   )
 }

@@ -1,0 +1,31 @@
+.contFormStep {
+  position: relative;
+  margin-left: 30px;
+
+
+  .labelStep {
+    margin-top: 25px;
+    position: absolute;
+    margin-left: 20px;
+    color: #8B949E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+  }
+
+  .inputStep {
+    height: 70px;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #121721;
+    color: aliceblue;
+    outline: none;
+  }
+}
+

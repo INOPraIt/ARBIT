@@ -99,7 +99,7 @@ export default function Finance() {
                 placeholder='0,000$'
               />
             </div>
-            <p className='paymentMethodText'>Волюта вывода</p>
+            <p className='paymentMethodText'>Валюта вывода</p>
             <div className='inp2B'>
               <Select
                 onChange={onConclusion}

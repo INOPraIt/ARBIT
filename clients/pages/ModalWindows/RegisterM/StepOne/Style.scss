@@ -1,0 +1,259 @@
+.containerRegisterM {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 733px;
+  width: 57%;
+  height: 733px;
+  background: #0D1017;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 20px;
+  position: fixed;
+  margin-left: 20%;
+  margin-top: 84px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+
+  @media screen and (max-width: 960px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 886px;
+    height: 733px;
+  }
+
+  @media screen and (max-width: 780px) {
+    width: 91%;
+    margin-left: 4%;
+  }
+
+  @media screen and (max-width: 540px) {
+    width: 91%;
+    margin-left: 4%;
+  }
+
+}
+
+
+
+.formsStepOne {
+  width: 100%;
+  background-color: aqua;
+}
+
+.itemRegisterM1::-webkit-scrollbar {
+  width: 6px;
+  background-color: #21262D;
+
+  @media screen and (max-width: 1920px) {
+    width: 1px;
+    background-color: #ffffff00;
+  }
+}
+
+.itemRegisterM1::-webkit-scrollbar-thumb {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+
+  @media screen and (max-width: 1920px) {
+    background-color: #ffffff00;
+  }
+}
+
+
+.itemRegisterM1 {
+  background-color: rgba(0, 0, 0, 0);
+  overflow: auto;
+  position: relative;
+  height: 733px;
+
+
+  .lineAndImgSecret {
+    position: relative;
+
+    .secretOneImg {
+      width: 100%;
+      border-radius: 20px 20px 0 0;
+      display: none;
+  
+      @media screen and (max-width: 960px) {
+        display: block;
+      }
+    }
+  }
+
+  .lineAndRegText {
+    display: flex;
+    @media screen and (max-width: 960px) {
+      position: absolute;
+    }
+
+    .lineRegisterAccount {
+      height: 8px;
+      width: 21px;
+      transform: rotate(90deg);
+      background: #00FF72;
+      border: none;
+      margin-top: 51px;
+      margin-left: 30px;
+      border-radius: 3px;
+    }
+
+    .registerAccount {
+      color: #FFFFFF;
+      font-size: 25px;
+      font-family: 'SfUiTextBold';
+      margin-top: 41px;
+      margin-left: 15px;
+    }
+  }
+
+  .textRegistration {
+    width: 442px;
+    height: 150px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    margin-top: 25px;
+    background-color: #00ff7300;
+
+    @media screen and (max-width: 450px) {
+      width: 250px;
+      height: 140px;
+      color: #FFFFFF;
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      margin-left: 20px;
+      margin-top: 25px;
+    }
+  }
+
+  .continuation {
+    width: 263px;
+    height: 48px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #151D26;
+    font-size: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    @media screen and (max-width: 500px) {
+      width: 40%;
+    }
+  }
+
+  .cancellation {
+    width: 117px;
+    height: 48px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: #0C1C2E;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+
+    @media screen and (max-width: 500px) {
+      width: 32%;
+      margin-left: 10px;
+    }
+  }
+
+  .textYouAlreadyHaveAnAccount {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 115px;
+    margin-top: 15px;
+    
+
+    @media screen and (max-width: 450px) {
+      margin-left: 45px;
+      margin-bottom: 20px;
+    }
+
+    .btnTextLogin {
+      text-decoration: underline;
+      color: rgba(4, 145, 251, 1);
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      background-color: #00000000;
+      border: none;
+      margin-left: 10px;
+    }
+  }
+
+  .formsContStepOne {
+    margin-top: 10px;
+  }
+
+}
+
+.itemReg2 {
+  position: relative;
+
+
+  .oneRegHtml {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    border-radius: 0 20px 20px 0;
+
+
+    // @media screen and (max-width: 1920px) {
+    //   width: 87%;
+    // }
+
+    // @media screen and (max-width: 960px) {
+    //   display: none;
+    // }
+  }
+}
+
+
+
+.containerRegisterM.active {
+  opacity: 100%;
+  pointer-events: all;
+}
+
+
+.lineAndRegTextBlockSecret {
+  display: flex;
+
+  .lineRegisterAccountBlockSecret {
+    height: 8px;
+    width: 21px;
+    transform: rotate(90deg);
+    background: #00FF72;
+    border: none;
+    margin-top: 51px;
+    border-radius: 3px;
+  }
+
+  .registerAccountBlockSecret {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: 'SfUiTextBold';
+    margin-top: 41px;
+    margin-left: 15px;
+  }
+}
+
+.item1RegS {
+  display: none;
+  position: relative;
+
+  @media screen and (max-width: 960px) {
+    display: block;
+  }
+
+  .lineAndRegText {
+    position: absolute;
+  }
+
+
+}
